@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Learn the size of Variables: \n";
+    cout << "Size or int is : " << sizeof(int) << endl;
+    cout << "Size or char is : " << sizeof(char) << endl;
+    cout << "Size or long is : " << sizeof(long) << endl;
+    cout << "Size or double is : " << sizeof(double) << endl;
+    cout << "Size or short is : " << sizeof(short) << endl;
+    cout << "Size or string is : " << sizeof(string) << endl;
+    cout << "Size or bool is : " << sizeof(bool) << endl;
+    
+    
+    
+
+    return 0;
+}
