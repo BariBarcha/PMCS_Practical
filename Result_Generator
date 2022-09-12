@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	
+	char Name[35], Class [10];
+	int M1,M2,M3, OM, AV,TT=300;
+	float PC, OMF,TTF;
+	
+	cout << "***********************\n" << endl;
+	cout << "\tResult Generator\n" << endl;
+	cout << "***********************\n" << endl;
+	
+	cout << "Enter Your Name: \t" << endl; 
+	cin >> Name; 
+	cout << "Enter Your Class: \t" << endl; 
+	cin >> Class; 
+	
+	cout << "Enter Your Marks in Maths: " << endl; 
+	cin >> M1; 
+	cout << "Enter Your Marks in Physics: " << endl; 
+	cin >> M2; 
+	cout << "Enter Your Marks in Computer Science: " << endl; 
+	cin >> M3; 
+	
+	cout << "***********************\n" << endl;
+	cout << "Thanks for choosing us "<< Name << " (" << Class << ")" << endl;
+	cout << "The Following is your result\n" << endl; 
+	cout << "Total Mark is:  "<< TT << endl;	 
+	OM = M1+M2+M3;
+	cout << "Obtained Mark is: "<< OM << endl;
+	AV = OM / 3; 
+	cout << "Average Mark is: " << AV << endl;
+	OMF = float(OM); TTF = float (TT);
+ 	PC =  (OMF/300)*100; 
+ 	cout << "Your Percentage is: " << PC << endl;
+	
+	
+	
+	
+	return 0;
+}
