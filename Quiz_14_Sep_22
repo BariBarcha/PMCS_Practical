@@ -3,7 +3,8 @@
 
 using namespace std;
 	
-	string Name, Response;
+	Char Res;
+	string Name;
 	int A1,A2,A3,A4;
 	
 	thing()
@@ -75,9 +76,9 @@ cout << R"(
 	getline (cin, Name);
 	
 	cout << "Would you like to play a game? (y for Yes)" << endl ;
-	cin >> Response;
+	Res = getch();
 	
- if (Response == "y") {
+ if (Res == "y") {
 	
 	thing();
 
