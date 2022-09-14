@@ -1,0 +1,75 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+	
+	string Name, Response;
+	int Q1;
+	int A1,A2,A3,A4;
+	
+	thing()
+	{	
+	cout <<"\nWhat does CPU stand for? \n1)Central Processing Unit \n2)Central Power Unit \n3)Cold Packanging Unit \n4)Condition Point Under" << endl;
+	cin>>A1;
+	if (A1 == 1 ) {
+		Q1 = Q1++;
+		cout << "Correct Answer " << Name << "!" << endl;
+	}
+	cout <<"\nWhat is Pakistans Capital? \n1)Lahore \n2)Baku \n3)Karachi \n4)Islamabad" << endl;
+	cin>>A2;
+	if (A2 == 4 ) {
+		Q1 = Q1++;
+		cout << "Correct Answer " << Name << "!" << endl;
+	} else {
+		cout << "Black Vigo wants to know your location\n";
+	}
+	cout <<"\nSyntax to display something in C++? \n1)Printf \n2)print \n3)echo \n4)cout" << endl;
+	cin>>A3;
+	if (A3 == 4 ) {
+		Q1 = Q1++;
+		cout << "Correct Answer " << Name << "!" << endl;
+	}
+	cout <<"\nWhat is India's Capital? \n1)Lahore \n2)Baku \n3)New Delhi \n4)Chennai" << endl;
+	cin>>A4;
+	if (A4 == 3 ) {
+		Q1 = Q1++;
+		cout << "Correct Answer " << Name << "!" << endl;
+	}
+	cout << Q1;
+	
+/*	if (Q1 = 4) {
+		cout << "You got 4 Questions correct!!!! " << Name << endl; 
+	}if (Q1 = 3) {
+		cout << "You got 3 Questions correct!!! " << Name << endl; 
+	}if (Q1 = 2) {
+		cout << "You got 2 Questions correct!! " << Name << endl; 
+	}if (Q1 = 1) {
+		cout << "You got 1 Question correct! " << Name << endl; 
+	} else {
+		cout << Name << " You donkey";
+	}
+*/	
+	return 0;
+}
+	
+int main () {
+
+	
+	cout << "Enter Your Name: " << endl; 
+	getline (cin, Name);
+	
+	cout << "Would you like to play a game? (y for Yes)" << endl ;
+	cin >> Response;
+	
+ if (Response == "y") {
+	
+	thing();
+
+	
+}
+else {
+	cout << "Have a good day";
+}
+
+	return 0;
+}
