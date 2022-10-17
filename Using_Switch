@@ -1,0 +1,57 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+  string Name;
+  int m1,m2,m3,m4,sum,st;
+ 
+  cout<<"***********************************\n** ";
+  cout << " Hello! Enter your name:   *****" << endl;
+  getline(cin,Name);
+  cout<<"***********************************\n** ";
+  cout << "Enter Your Marks in English: " << endl;
+  cin>>m1;
+  cout<<"***********************************\n** ";
+  cout << "Enter Your Marks in Maths: " << endl;
+  cin>>m2;
+  cout<<"***********************************\n** ";
+  cout << "Enter Your Marks in Computer Science: " << endl;
+  cin>>m3;
+  cout<<"***********************************\n** ";
+  cout << "Enter Your Marks in Pak Studies: " << endl;
+  cin>>m4;
+  sum = m1+m2+m3+m4;
+  float per = (sum / 400 * 100);
+    string r1 = (m1 > 40) ? "Passed" : "Failed";
+      string r2 = (m2 > 40) ? "Passed" : "Failed";
+        string r3 = (m3 > 40) ? "Passed" : "Failed";
+          string r4 = (m4 > 40) ? "Passed" : "Failed";
+ 
+  if (sum <= 160 || m1 <= 40|| m2 <= 40|| m3 <= 40|| m4 <= 40) {
+      cout<<"\nSorry "<<Name <<" you Failed the exam" << endl;
+        cout<<"You Have Scored: " << sum <<endl;
+    cout<<"Your Percentage: " << per<<endl;
+         cout<<"English: " << r1<< endl;
+      cout<<"Maths: " <<r2 <<endl;
+      cout<<"Computer Science: "<<r3 << endl;
+      cout<<"Pak Studies: " <<r4 <<endl;
+ 
+  } else {
+      cout<<"\nCongratulations "<<Name <<" You Have Passe the Exam" <<endl;
+      cout<<"You Have Scored: " << sum <<endl;
+    cout<<"Your Percentage: " << per<<endl;
+ 
+      cout<<"English: " << r1<< endl;
+      cout<<"Maths: " <<r2 <<endl;
+      cout<<"Computer Science: "<<r3 << endl;
+      cout<<"Pak Studies: " <<r4 <<endl;
+ 
+ 
+  }
+ 
+ 
+ 
+    return 0;
+}
