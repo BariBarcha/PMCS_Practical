@@ -1,0 +1,148 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main (){
+    
+    int v1,v2,v3; 
+  
+    
+    cout <<"********************************"<<endl;
+    cout <<"Numerical Date to Word Convertor"<<endl;
+    cout <<"********************************"<<endl;
+    
+    cout <<"Enter the Day [1-30]"<<endl;
+    cin >> v1;
+    cout <<"Enter the Month [1-12]"<<endl;
+    cin >> v2;
+
+    switch(v1){
+        case 1: 
+        cout << "First Day ";
+        break;
+        case 2: 
+        cout << "Second Day ";
+        break;
+        case 3: 
+        cout << "Third Day ";
+        break;
+        case 4: 
+        cout << "Fourth Day ";
+        break;
+          case 5: 
+        cout << "Fith Day ";
+        break;
+          case 6: 
+        cout << "Sixth Day ";
+        break;
+          case 7: 
+        cout << "Seventh Day ";
+        break;
+          case 8: 
+        cout << "Eighth Day ";
+        break;
+          case 9: 
+        cout << "Ninth Day ";
+        break;
+          case 10: 
+        cout << "Tenth Day ";
+        break;
+          case 11: 
+        cout << "Eleventh Day ";
+        break;
+          case 12: 
+        cout << "Twelveth  Day ";
+        break;
+          case 13: 
+        cout << "Thirteenth Day ";
+        break;  case 14: 
+        cout << "Fourteenth Day ";
+        break;  case 15: 
+        cout << "Fifteenth Day ";
+        break;  case 16: 
+        cout << "Sixteenth Day ";
+        break;  case 17: 
+        cout << "Seventeenth Day ";
+        break;  case 18: 
+        cout << "Eighteenth Day ";
+        break;  case 19: 
+        cout << "Nineteenth Day ";
+        break;  case 20: 
+        cout << "Twenth Day ";
+        break;  case 21: 
+        cout << "Twenty First Day ";
+        break;  case 22: 
+        cout << "Twenty Second Day ";
+        break;  case 23: 
+        cout << "Twenty Third Day ";
+        break;  case 24: 
+        cout << "Twenty Fourth Day ";
+        break;  case 25: 
+        cout << "Twenty Five Day ";
+        break;  case 26: 
+        cout << "Twenty Six Day ";
+        break;  case 27: 
+        cout << "Twenty Seven Day ";
+        break;  case 28: 
+        cout << "Twenty Eight Day ";
+        break;  case 29: 
+        cout << "Twenty Nine Day ";
+        break;  case 30: 
+        cout << "Thirty  Day ";
+        break;
+        default:
+        cout<<"Input can't be Converted into Word Form"<<endl;
+    }
+    
+    switch(v2){
+          case 1: 
+        cout << "First  Month ";
+        break;
+        case 2: 
+        cout << "Second  Month ";
+        break;
+        case 3: 
+        cout << "Third  Month ";
+        break;
+        case 4: 
+        cout << "Fourth  Month ";
+        break;
+          case 5: 
+        cout << "Fith  Month ";
+        break;
+          case 6: 
+        cout << "Sixth  Month ";
+        break;
+          case 7: 
+        cout << "Seventh  Month ";
+        break;
+          case 8: 
+        cout << "Eighth  Month ";
+        break;
+          case 9: 
+        cout << "Ninth  Month ";
+        break;
+          case 10: 
+        cout << "Tenth  Month ";
+        break;
+          case 11: 
+        cout << "Eleventh  Month ";
+        break;
+          case 12: 
+        cout << "Twelveth  Month ";
+        break;
+        default:
+        cout<<"Input can't be Converted into Word Form"<<endl;
+        
+        
+    }
+      
+      
+    
+    
+    
+    
+    
+    return 0;
+}
